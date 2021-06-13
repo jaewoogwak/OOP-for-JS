@@ -1,3 +1,6 @@
+# OOP-for-JS
+reference : https://opentutorials.org/module/4047
+* * *
 ## object, this, constructor, prototype
 
 ### 객체
