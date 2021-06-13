@@ -1,4 +1,7 @@
-### class
+# OOP-for-JS
+reference : https://opentutorials.org/module/4047/24614
+* * *
+## class
 
 class는 객체를 찍어내는 공장이다.
 constructor function을 class로 대체할 수 있다.
@@ -24,7 +27,7 @@ class Person {
 var gwak = new Person("jaewoo", "male", 21);
 ```
 
-#### method in class
+### method in class
 
 class 안의 method는 class로 만들어진 모든 객체가 공유하는 함수
 
