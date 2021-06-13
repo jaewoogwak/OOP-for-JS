@@ -51,7 +51,10 @@ gwak.introduce(); // jaewoo 21 CSE
 
 객체는 객체 리터럴{...}을 사용해 쉽게 만들 수 있다. <br>
 그러나 객체를 다양하게 만들어야 할 때, 생성자 함수를 사용해 객체를 쉽게 생성할 수 있다. <br>
-생성자의 의의는 바로 여기에 있다. 재사용할 수 있는 객체 생성 코드를 구현하는 것이다.
+생성자의 의의는 바로 여기에 있다. 재사용할 수 있는 객체 생성 코드를 구현하는 것이다. <br>
+
+함수에 new 연산자를 붙이면 객체가 됨. <br>
+그러면 일반적인 함수가 아니고 생성자(constructor)가 됨.
 
 ```JavaScript
 function person(name, sex, age) {
@@ -66,6 +69,10 @@ function person(name, sex, age) {
 var boy = new person("jaewoo", "male", 22); // jaewoo male 22
 var girl = new person("jimin", "female", 22); // jimin female 22
 ```
+
+생성자가 하는 역할
+- 객체를 만든다
+- 객체 내부의 초기상태 set (property)
 
 * * *
 ### prototype
