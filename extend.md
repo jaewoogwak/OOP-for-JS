@@ -38,6 +38,7 @@ var kim = new PersonWork("juwon", "male", 22);
 kim.work(); // Now I'm coding
 ```
 
+
 ### super
 
 super() 과 super
@@ -49,6 +50,7 @@ super(name, age);와 같이 선언하면, 부모 생성자 constructor에 인자
 `super`는 부모 class의 요소에 접근한다.
 
 예를 들어 부모 class에 intro라는 메소드가 있으면 부모 class를 상속받은 자식 class에서 super.intro()와 같이 부모 class의 메소드에 접근할 수 있다.
+
 
 ```JavaScript
 class Person {
@@ -91,6 +93,8 @@ var kim = new PersonWork("juwon", "male", 22, true);
 console.log(kim.newIntro()); // hi I'm juwon I'm wearing glasses
 ```
 
+
+
 ### 객체간의 상속 : __proto__
 
 JS는 객체간의 상속도 가능하다.
@@ -102,6 +106,7 @@ super Object를 상속받은 sub Object가 자식 객체이다.
 prototype link가 가리키는 객체를 prototype object라고 한다.
 
 이렇게 객체간 상속은 `__proto__`를 사용한다.
+
 
 ```JavaScript
 var superObj = {
@@ -126,9 +131,12 @@ console.log('superObj.superVal => ', superObj.superVal);
 표준 방식대로라면 `oject.create()`를 사용해서 부모 객체를 상속 받은 자식 객체를 생성할 수 있다.
 
 
+
+
 ### Object.create()
 
 `Object.create`를 이용해서 __proto__를 대체할 수 있다.
+
 
 ```JavaScript
 var superObj = {superVal : 'super'};
@@ -147,12 +155,5 @@ subObj.superVal = 'jaewoo'; // subObj의 superVal를 바꾸는 것이지 superOb
 console.log('(modified) subObj.superVal => ', subObj.superVal);
 console.log('superObj.superVal => ', superObj.superVal);
 ```
-
-
-
-
-
-
-
 
 
