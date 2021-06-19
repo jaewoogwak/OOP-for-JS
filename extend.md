@@ -1,3 +1,6 @@
+# OOP-for-JS
+reference : https://opentutorials.org/module/4047/24619
+* * *
 ## 상속(extends)
 
 `상속`이란 부모 class의 요소들을 그대로 자식 class로 물려주는 것이다.
