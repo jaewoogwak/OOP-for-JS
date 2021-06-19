@@ -37,7 +37,7 @@ gwak.intro(); // hi I'm jaewoo
 var kim = new PersonWork("juwon", "male", 22);
 kim.work(); // Now I'm coding
 ```
-
+<br>
 
 ### super
 
@@ -93,7 +93,7 @@ var kim = new PersonWork("juwon", "male", 22, true);
 console.log(kim.newIntro()); // hi I'm juwon I'm wearing glasses
 ```
 
-
+<br>
 
 ### 객체간의 상속 : __proto__
 
@@ -130,8 +130,7 @@ console.log('superObj.superVal => ', superObj.superVal);
 
 표준 방식대로라면 `oject.create()`를 사용해서 부모 객체를 상속 받은 자식 객체를 생성할 수 있다.
 
-
-
+<br>
 
 ### Object.create()
 
