@@ -1,3 +1,6 @@
+# OOP-for-JS
+reference : https://opentutorials.org/module/4047/24619
+* * *
 ### call
 
 call method는 모든 함수에 다 존재한다.
