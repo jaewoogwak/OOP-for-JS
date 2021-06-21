@@ -1,7 +1,8 @@
 # OOP-for-JS
 reference : https://opentutorials.org/module/4047/24619
 * * *
-### call
+
+## call
 
 call method는 모든 함수에 다 존재한다.
 
@@ -39,7 +40,7 @@ function sum(prefix) {
 
 * * *
 
-### bind
+## bind
 
 `bind`는 함수의 (call 호출 시) this를 매번 바꾸지 않고 
 그냥 내부적으로 사용하는 this를 고정시킨다.
