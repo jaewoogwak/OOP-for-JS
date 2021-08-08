@@ -81,6 +81,7 @@ console.log('fruit' in jaewoo);
 console.clear();
 for (let key in jaewoo) {
     console.log(key);
+    console.log(jaewoo[key]);
 }
 
 // for (value of iterable)
@@ -88,3 +89,9 @@ const array = [1,2,3,4,5,6,7];
 for(let value of array) {
     console.log(value);
 }
+
+/*
+for(let i=0; i<array.length; i++) {
+    console.log(array[i]);
+}
+*/
