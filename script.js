@@ -1,7 +1,7 @@
 'use strict'
 //getter, setter
 // inheritance, diversity
-
+/*
 class Phone {
     constructor(model, master) {
         this.model = model;
@@ -33,7 +33,7 @@ class Galaxy extends Phone {
         super.turnOn();
         console.log("👽");
     }
-}
+}*/
 /*
 const base = new Phone("test phone", "owner");
 console.log(base.showModel(), base.showMaster(), base.turnOn());
@@ -95,3 +95,38 @@ for(let i=0; i<array.length; i++) {
     console.log(array[i]);
 }
 */
+
+// Fun cloning
+// Object.assign(dest, [obj1, obj2, obj3...])
+
+
+
+/*
+// old way
+console.clear();
+const user2 = {};
+for (let key in user) {
+    user2[key] = user[key];
+}
+
+user2.name = 'jaewoo'
+console.log(user);
+console.log(user2);
+*/
+
+console.clear();
+/*
+const user = {name : 'eunseok', age : '22'};
+const user4 = {};
+Object.assign(user4, user);
+//user4 = user;
+user4.name = "new";
+console.log(user.name);
+*/
+
+const Galaxy = {os : "android", company : "samsung"};
+const iPhone = {os : "ios", company : "apple", master : "jaewoo"};
+const mixed = Object.assign({}, Galaxy, iPhone);
+//console.log(iPhone);
+//console.log(Galaxy);
+console.log(mixed);
